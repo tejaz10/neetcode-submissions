@@ -7,7 +7,7 @@ class Solution {
 
         List<Map.Entry<Integer,Integer>> list = new ArrayList<>(map.entrySet());
 
-        list.sort((a,b) -> b.getValue() - a.getValue());
+        list.sort((a,b) -> b.getValue() - a.getValue()); // to sort iin descending order 5 - 3 == positive so 5 comes first and then 3
 
         int[] ans = new int[k];
 
